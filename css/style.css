@@ -5,13 +5,7 @@
 
 p {
     color: #808080;
-
 }
-
-/* [role="article"] {
-    margin: auto;
-    width: 90%;
-}  */
 
 
 [role="article"] h3 {
@@ -60,7 +54,7 @@ header h1 {
 
 header h2 {
     font-family: "Satisfy";
-    color: #b3b3b3;
+    color: #d9d9d9;
     font-size: 1.7em;
     margin:0;
 }
@@ -69,6 +63,7 @@ header h2 {
     background: url(../img/bamboo.png);
     background-color: rgba(109, 150, 109, 0.767);
     padding-bottom: 0.8em;
+    padding-top: 0.1em;
 }
 .participation p {
     color:white;
@@ -81,7 +76,8 @@ header h2 {
 .benefits {
     background: url(../img/bamboo.png);
     background-color: rgba(109, 150, 109, 0.767);
-    margin-top: -1.2em;
+    margin-top: -1.15em;
+    padding-bottom: 1em;
 }
 
 
@@ -143,7 +139,7 @@ footer {
     background-color: #25423d;
     padding-top: 0.8em;
     padding-bottom: 0.8em;
-    margin-top: -1.3em;
+    margin-top: -2.3em;
 }
 
 footer a {
@@ -165,7 +161,7 @@ footer a:hover {
 
 
 
-.select, .archives, .designer-name, .resources {
+.select, .archives, .resources {
     visibility: hidden;
 }
 
@@ -174,7 +170,7 @@ footer a:hover {
 }
 
 
-[role="navigation"] a {
+[role="navigation"] a, .designer-name {
     color: grey;
 }
 
@@ -188,10 +184,30 @@ footer a:hover {
     color:black;
 }
 
-/* .summary, .preamble, .explanation, .participation, .benefits, .requirements, h3 p {
+.designer-name {
+    font-size:0.8em;
+}
+
+ .summary, .preamble, .explanation, .participation, .benefits, .requirements, h3 p {
     padding-left: 7em;
     padding-right: 7em;
+}
 
-} */
+[role="article"] {
+    padding-bottom: 1em;
+}
 
+.design-archives [role="navigation"] ul {
+    column-count: 2;
+    column-gap: 2.5em;
+    text-align: center;
+    padding-bottom: 1.25em;
 
+}
+
+.zen-resources ul {
+    column-count: 2;
+    column-gap: 2.5em;
+    text-align: center;
+    padding-bottom: 1.25em;
+}
