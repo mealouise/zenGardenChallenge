@@ -197,7 +197,7 @@ footer a:hover {
     padding-bottom: 1em;
 }
 
-.design-archives [role="navigation"] ul {
+.design-archives [role="navigation"], .zen-resources ul {
     column-count: 2;
     column-gap: 2.5em;
     text-align: center;
@@ -205,9 +205,22 @@ footer a:hover {
 
 }
 
-.zen-resources ul {
+
+.zen-resources ul li{
+    padding-bottom: 1.25em;
+}
+
+.design-selection [role="navigation"] ul {
     column-count: 2;
     column-gap: 2.5em;
     text-align: center;
-    padding-bottom: 1.25em;
+    padding-bottom: 1.5em;
 }
+
+.design-selection [role="navigation"] ul li {
+    padding-bottom: 1.25em;
+    padding-top: 1.25em;
+    border-bottom: 1.5px solid #d9d9d9;
+    width: 100%;
+}
+
